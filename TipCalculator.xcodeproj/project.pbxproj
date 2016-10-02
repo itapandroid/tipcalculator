@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D74D4CC1DA0960B00C862F5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D74D4CB1DA0960B00C862F5 /* SettingsViewController.swift */; };
+		2D74D4CE1DA09DEF00C862F5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2D74D4CD1DA09DEF00C862F5 /* README.md */; };
 		2DC2973C1D9DF95000119ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2973B1D9DF95000119ACA /* AppDelegate.swift */; };
 		2DC2973E1D9DF95000119ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2973D1D9DF95000119ACA /* ViewController.swift */; };
 		2DC297411D9DF95000119ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC2973F1D9DF95000119ACA /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D74D4CB1DA0960B00C862F5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2D74D4CD1DA09DEF00C862F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2DC297381D9DF95000119ACA /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC2973B1D9DF95000119ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DC2973D1D9DF95000119ACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				2DC297421D9DF95000119ACA /* Assets.xcassets */,
 				2DC297441D9DF95000119ACA /* LaunchScreen.storyboard */,
 				2DC297471D9DF95000119ACA /* Info.plist */,
+				2D74D4CB1DA0960B00C862F5 /* SettingsViewController.swift */,
+				2D74D4CD1DA09DEF00C862F5 /* README.md */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 			files = (
 				2DC2973E1D9DF95000119ACA /* ViewController.swift in Sources */,
 				2DC2973C1D9DF95000119ACA /* AppDelegate.swift in Sources */,
+				2D74D4CE1DA09DEF00C862F5 /* README.md in Sources */,
+				2D74D4CC1DA0960B00C862F5 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +422,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 52JMZB9499;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tapanpatel.tipcalculator.TipCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapanpatel.tipcalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -427,8 +436,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 52JMZB9499;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tapanpatel.tipcalculator.TipCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapanpatel.tipcalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -511,6 +521,7 @@
 				2DC297621D9DF95000119ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DC297631D9DF95000119ACA /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +530,7 @@
 				2DC297651D9DF95000119ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DC297661D9DF95000119ACA /* Build configuration list for PBXNativeTarget "TipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +539,7 @@
 				2DC297681D9DF95000119ACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
